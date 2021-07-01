@@ -123,4 +123,7 @@
             margin-left:50%;
             transform:translateX(-50%);
         }   
+       .checkbox{
+            left:2%;
+       }
 }
