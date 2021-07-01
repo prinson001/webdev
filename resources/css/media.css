@@ -1,0 +1,126 @@
+@media only screen and (max-width:1200px){
+       html,body{
+           font-size:14px;
+       }
+       .work-section-heading{
+        padding-top:90px;
+       }
+       .testimonicals-heading,
+       .contact-heading{
+           margin-top:90px;
+       }
+       
+}
+@media only screen and (max-width:1024px){
+       html,body{
+           font-size:12px;
+       }
+       .about-box:last-child{
+        text-align: center;
+       }
+       .about-box:first-child{
+        padding: 0 7%;
+       }
+       .about-para,
+       .about-heading{
+        margin-bottom:30px;
+       }
+       .work-section-heading{
+        padding-top:70px;
+       }
+       .testimonicals-heading,
+       .contact-heading{
+           margin-top:70px;
+       }
+       
+}
+@media only screen and (max-width:768px){
+       html,body{
+           font-size:10px;
+       }
+}
+@media only screen and (max-width:480px){
+       html,body{
+           font-size:10px;
+       }
+       .list{
+           width:50%;
+           padding-bottom:0;
+       }
+       .span_1_of_4{
+           width:50%;
+        }
+        .sub-heading:after{
+            margin-bottom:10px;
+        }
+        .about-box{
+            margin-top:50px;
+        }
+        .about-para{
+            padding:0 5%;
+            position:relative;
+        }
+        .about-heading{
+            text-align:center;
+        }
+        .about-btn{
+            position:absolute;
+            left:50%;
+            transform: translate(-50%);
+        }
+        .header-sub-heading{
+            text-align:center;
+            width:100%;
+        }
+        .btn-head{
+               box-sizing: content-box;
+               width:40%;
+               margin: 0 23%;
+               display:inline-block;
+        }
+        .header-box-text{
+            margin-bottom:60px;
+        }
+        .clients{
+            padding-left:3%;
+        }
+        .package-box{
+            display: block;
+            margin:3% auto;
+            width:100%;
+        }
+        label{
+            margin-left:0;
+            font-size:120%;
+        }
+        .hello3{
+            position:relative;
+        }
+        .checkbox{
+            position:absolute;
+            left:0;
+        }
+        .checked{
+               position:absolute;
+               left:15px;
+        }
+        .textarea{
+            margin-top: 20px;
+        }
+        .contact{
+            padding-left:3%;
+        }
+        footer{
+            padding-left: 3%;
+        }
+    
+}
+@media only screen and (max-width:360px){
+        .btn-head{
+            width:60%;
+            padding:3% 1%;
+            text-align:center;
+            margin-left:50%;
+            transform:translateX(-50%);
+        }   
+}
