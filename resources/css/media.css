@@ -126,4 +126,7 @@
        .checkbox{
             left:2%;
        }
+       .checked{
+              left:17px;
+       }
 }
