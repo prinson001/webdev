@@ -132,4 +132,7 @@
        .header-box-text{
               width:240px;
        }
+       a{
+           text-decoration:none;
+       }
 }
