@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-size:16px;
+    font-family: 'Work Sans','ARIAL',sans-serif;
+}
+header{
+    height:100vh;
+    background-image:url("img/header-img.jpg");
+    position:relative;
+    background-size: cover;
+    position:center;
+    color:#fff;
+}
+.overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.4);
+}
+.header-main{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+h1{
+    text-align:center;
+    font-size:500%;
+    font-weight:400;
+}
+h2{
+    font-size:180%;
+    font-weight:400;
+    margin-top:20px;
+    margin-bottom:120px;
+}
+.logo{
+    height:120px;
+    width:auto;
+    float:left;
+}
+.main-nav{
+    float:right;
+    margin-top:50px;
+}
+.main-nav li {
+    display:inline-block;
+    margin-right:40px;
+    text-transform:uppercase; 
+}
+.main-nav li a{
+    text-decoration:none;
+    color:#fff;
+    transition:border-bottom 1s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom:3px solid #ed07b7;
+}
+.btn{
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius:20px;
+    background:black;
+}
+.btn-main:link,
+.btn-main:visited{
+    background-color:#ed07b7;
+    color:white;
+    margin-left:35%;
+}
+.btn-main:hover,
+.btn-main:active{
+    background-color:#c60699;
+}
